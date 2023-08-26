@@ -237,7 +237,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "maps",
+        name: "maps-api",
         color: "pink-text-gradient",
       },
       {
