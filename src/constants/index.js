@@ -85,10 +85,7 @@ const technologies = [
     name: "Next JS",
     icon: next,
   },
-  {
-    name: "Angular",
-    icon: angular,
-  },
+
   {
     name: "Node JS",
     icon: nodejs,
@@ -104,6 +101,10 @@ const technologies = [
   {
     name: "Graphql",
     icon: graph,
+  },
+  {
+    name: "Angular",
+    icon: angular,
   },
   {
     name: "git",
@@ -123,7 +124,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "August 2022 - January 2023",
     points: [
-      "Worked across 3 dierent edtech products with a user base of 1 million.",
+      "Worked across 3 different edtech products with a user base of 1 million.",
       "Built highly scalable, responsive and reusable custom components from scratch.",
       "Brought down first contentful page render from 4.2 secs to 2.9 secs.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -152,7 +153,8 @@ const testimonials = [
     designation: "Product Designer",
     company: "SmallCase",
     linkedin: "https://www.linkedin.com/in/sunalsood/",
-    image: "https://media.licdn.com/dms/image/C4E03AQEIWxNgAXJ5pw/profile-displayphoto-shrink_200_200/0/1608448232281?e=1698278400&v=beta&t=8Cieqd5CAhRN4Z_KOBhr1rMxP63Whfd6Aq2sH-vLZXE",
+    image:
+      "https://media.licdn.com/dms/image/C4E03AQEIWxNgAXJ5pw/profile-displayphoto-shrink_200_200/0/1608448232281?e=1698278400&v=beta&t=8Cieqd5CAhRN4Z_KOBhr1rMxP63Whfd6Aq2sH-vLZXE",
   },
   {
     testimonial:
@@ -161,7 +163,8 @@ const testimonials = [
     designation: "FullStack Developer",
     company: "ChicMic",
     linkedin: "https://www.linkedin.com/in/salmaan-khan-7694ab1a0/",
-    image: "https://media.licdn.com/dms/image/C5603AQFGjP3aL9AJ1A/profile-displayphoto-shrink_200_200/0/1642222343591?e=1698278400&v=beta&t=yHQkgoUi78LuW60sijFNkO7IcCrFjWNOFG7VRcYseUc",
+    image:
+      "https://media.licdn.com/dms/image/C5603AQFGjP3aL9AJ1A/profile-displayphoto-shrink_200_200/0/1642222343591?e=1698278400&v=beta&t=yHQkgoUi78LuW60sijFNkO7IcCrFjWNOFG7VRcYseUc",
   },
   {
     testimonial:
@@ -170,7 +173,8 @@ const testimonials = [
     designation: "Software Developer",
     company: "CimpressIndia",
     linkedin: "https://www.linkedin.com/in/ayusdas2000",
-    image: "https://media.licdn.com/dms/image/D4D03AQGqKt3zC26g7A/profile-displayphoto-shrink_200_200/0/1678869426420?e=1698278400&v=beta&t=Co6tmpY_HT2uzsM0KUfT1nyuox_iSpUHMGYrSAkSFDM",
+    image:
+      "https://media.licdn.com/dms/image/D4D03AQGqKt3zC26g7A/profile-displayphoto-shrink_200_200/0/1678869426420?e=1698278400&v=beta&t=Co6tmpY_HT2uzsM0KUfT1nyuox_iSpUHMGYrSAkSFDM",
   },
 ];
 
@@ -279,54 +283,54 @@ const projects = [
     project_link: "https://netflix-clone-e2130.web.app/",
     source_code_link: "https://github.com/",
   },
-  {
-    name: "Amazon",
-    description:
-      "Web-application which is an Amazon clone that displays various products. It has user authentication provided by rebase with complete payment processing and features like cart and ratings of the product.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Redux",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "material-ui",
-        color: "text-orange-300",
-      },
-    ],
-    image: amazon,
-    project_link: "https://fullstack-clone-388b8.web.app/",
-    source_code_link: "https://github.com/Prateek0468/amazon-replica",
-  },
-  {
-    name: "Portfolio-1",
-    description:
-      "This comprehensive web app is the first portfolio that I created. It has really cool parallax effects and animations which makes it a perfect project to showcase my design and development skills. ",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "lazy-loading",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "parallax-effect",
-        color: "text-orange-300",
-      },
-    ],
-    image: portfolio,
-    project_link: "https://prateek-bhatt.web.app/",
-    source_code_link: "https://github.com/Prateek0468/Portfolio",
-  },
+  // {
+  //   name: "Amazon",
+  //   description:
+  //     "Web-application which is an Amazon clone that displays various products. It has user authentication provided by rebase with complete payment processing and features like cart and ratings of the product.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Redux",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "Firebase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "material-ui",
+  //       color: "text-orange-300",
+  //     },
+  //   ],
+  //   image: amazon,
+  //   project_link: "https://fullstack-clone-388b8.web.app/",
+  //   source_code_link: "https://github.com/Prateek0468/amazon-replica",
+  // },
+  // {
+  //   name: "Portfolio-1",
+  //   description:
+  //     "This comprehensive web app is the first portfolio that I created. It has really cool parallax effects and animations which makes it a perfect project to showcase my design and development skills. ",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "lazy-loading",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "parallax-effect",
+  //       color: "text-orange-300",
+  //     },
+  //   ],
+  //   image: portfolio,
+  //   project_link: "https://prateek-bhatt.web.app/",
+  //   source_code_link: "https://github.com/Prateek0468/Portfolio",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

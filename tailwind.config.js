@@ -3,6 +3,19 @@ export const content = ["./src/**/*.{js,jsx}"];
 export const mode = "jit";
 export const theme = {
   extend: {
+    keyframes: {
+      slide: {
+        'from': {
+          transform: 'translateX(0)'
+        },
+        'to': {
+          transform: 'translateX(-100%)'
+        }
+      }
+    },
+    animation:{
+      "slider": '15s slide linear infinite'
+    },
     colors: {
       primary: "#050816",
       secondary: "#aaa6c3",
